@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBAction func ButtonPushed2(_ sender: Any) {
         print(text1.text!)
         print(text2.text!)
+        TheLabel.text = "Answer = \(Double(text1.text!)! + Double(text2.text!)!)"
         
     }
     
